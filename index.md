@@ -8,6 +8,11 @@ hinting summarizes it very well:
 > a rasterized grid. At low screen resolutions, hinting is critical for
 > producing clear, legible text.
 
+A picture is worth a thousand words. The image below shows the same text/font
+rendered with full hinting (top) and no hinting (bottom).
+
+![Full hinting and no hinting example](img/font_hinting-example.png "Font hinting example")
+
 Simply put, font hinting makes fonts look crisp and thin, and whether this is
 good or bad is highly subjective. It seems that the vast majority of people
 simply go with whatever their OS default is and do not care or just cannot tell
@@ -17,7 +22,7 @@ wiki is dedicated to enabling and supporting font full hinting in Linux.
 
 In Linux, it used to be easy to either enable or disable font hinting, and this
 worked pretty well out of the box around 2012. However, as the various libraries
-involved in font rendering have evolved and diverged, it is now very difficult
+that deal with font rendering have evolved and diverged, it is now very difficult
 to consistently enable (or disable) font hinting across the entire desktop.
 
 * [Enabling full hinting](enabling.md)
